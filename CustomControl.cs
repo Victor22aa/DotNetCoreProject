@@ -15,7 +15,7 @@ namespace DotNETCoreProject
             comboControl.Clear();
             comboControl.SendKeys(value);
 
-            //Driver.FindElement(By.XPath("//li[@class='o-itm o-v o-ditm focus']")).Click();
+            Driver.FindElement(By.XPath("//li[@class='o-itm o-v o-ditm focus']")).Click();
         }
       
     }
