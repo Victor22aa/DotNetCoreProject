@@ -23,7 +23,7 @@ namespace DotNETCoreProject
             Driver.FindElement(By.XPath("//div[@class='o-con'][contains(text(),'Celery')]")).Click();
             //IWebElement element = Driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed"));
             //SelectElement select = new SelectElement(element);
-            //select.SelectByIndex(4);
+            
 
             Console.WriteLine("Pass");
             Assert.Pass();
