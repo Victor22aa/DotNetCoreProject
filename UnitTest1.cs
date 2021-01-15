@@ -25,7 +25,6 @@ namespace DotNETCoreProject
             //SelectElement select = new SelectElement(element);
             //select.SelectByIndex(4);
 
-            //CustomControl.ComboBox("Almonds");
             Console.WriteLine("Pass");
             Assert.Pass();
         }
